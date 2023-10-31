@@ -1,0 +1,15 @@
+<web-app>
+
+	<servlet>
+		<servlet-name> convert-servlet </servlet-name>
+		<servlet-class> com.rapid.ServletValutar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<url-pattern>/convert</url-pattern>
+		<servlet-name> convert-servlet</servlet-name>
+	</servlet-mapping>
+	
+
+
+</web-app>
